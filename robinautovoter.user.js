@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Build a Ladder in Robin
 // @namespace    http://compileand.run
-// @version      1.1
+// @version      1.2
 // @description  Autovotes via text on /robin
 // @author       /u/tmaspoopdek (based on code by /u/keythkatz)
 // @match        https://www.reddit.com/robin*
@@ -15,6 +15,6 @@ function sendMessage2(message){
     $("#robinSendMessage > input[type='submit']").click();
 }
 
-setTimeout(function(){
-    sendMessage2("╠═══╣Lets build a ladder╠═══╣");
+setInterval(function(){
+    sendMessage2("╠═══╣Lets build a ladder╠═══╣     Want the bot? https://goo.gl/oUKmTK");
 }, 5000);
