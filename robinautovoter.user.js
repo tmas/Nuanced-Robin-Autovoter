@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Robin Autovoter
+// @name         Nuanced Robin Autovoter
 // @namespace    http://compileand.run
 // @version      1.9-mod
 // @description  Autovotes via text on /robin
